@@ -614,6 +614,8 @@ function lastPage(event) {
     } else if(this.id === "back") {
         $(".opening").show();
         $(".cards").css({display: "none"}); 
+        $(".principles").html("");
+    $(".content-left").html('<div class="abilities"><div class="abilities-text"><h2 class="abilities-h2">מיומנויות?</h2></div><img class="pencil" src="assets/images/pencil.png" /></div><div class="filler">g</div> <div class="up"><img class="up-btn" src="assets/images/next.png"/></div>');
         $("#options-prev").on("click", lastPage);
         $(".prev-btn").off("click", lastPage);
         $(".next-btn").off("click", next);
