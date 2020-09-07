@@ -117,7 +117,7 @@ const tools = [
             time: "5-10 דקות",
             links: [
                 "<a href=https://www.facebook.com/groups/4565053115>קריאת המשך</a>",
-                "<a href=http://to-be>כלי למידה</a>"
+                "<a href=http://to.be>כלי למידה</a>"
             ],
             text: [
                 "<ul><p class='sideways-text'>עקרונות ליישום</p><li>נושא הדיון נקבע על ידי השופטים</li> <li>השופטים מגדירים את תפקיד הקבוצה - לצדד או להתנגד לנושא אשר נבחר</li><li>זמן בניית טיעון בקבוצה - 15 דקות</li><li>פינג פונג” - בין דוברים, 7 דקות לדובר”</li><li>הקבוצה המתחרה לא מפריעה במהלך הדיון ולא מעירה במהלך הדקה הראשונה והדקה האחרונה</li><li>לאחר שמונה נאומים פאנל השופטים מכריז על הקבוצה המנצחת</li></ul>",
@@ -143,8 +143,8 @@ const mobileLearning = [
         members: "בהתאם לכל יישום",
         time: "5-20 דקות",
         links: [
-            "<p>קריאת המשך - dkjihourdhgioetaha</p>",
-            "<p>כלי למידה - uegty8o7yt935ht958yh</p>"
+            "<a href=http://in.bgu.ac.il/computing/E-Learning/DocLib/%D7%A9%D7%99%D7%9C%D7%95%D7%91%20%D7%98%D7%9B%D7%A0%D7%95%D7%9C%D7%95%D7%92%D7%99%D7%94%20%D7%A0%D7%99%D7%99%D7%93%D7%AA%20%D7%91%D7%94%D7%95%D7%A8%D7%90%D7%94%20%D7%91%D7%94%D7%A9%D7%9B%D7%9C%D7%94%20%D7%94%D7%92%D7%91%D7%95%D7%94%D7%94%20%D7%A4%D7%95%D7%A8%D7%A7%D7%95%D7%A9.pdf>קריאת המשך</a>",,
+            "<a href= https://digitalpedagogy.co/tag/%D7%9C%D7%9E%D7%99%D7%93%D7%94-%D7%A0%D7%99%D7%99%D7%93%D7%AA>כלי למידה</a>"
         ],
         text: [
             "<ul><p class='sideways-text'>עקרונות ליישום</p><li>ניתן ליישום כקורס מקוון בצורה סנכרונית או א - סנכרונית</li> <li>שימוש באפלקציות או אתרים המאפשרים למידה עצמית או קבוצתית</li></ul>",
@@ -203,7 +203,7 @@ const social = [
             members: "עד 8",
             time: "מספר ימים",
             links: [
-                "<a href=https://museandfuse.worldpress.com/2014/05/09/case-study-teaching>קריאת המשך</a>",
+                "<a href=https://museandfuse.wordpress.com/2014/05/09/case-study-teaching>קריאת המשך</a>",
                 "<a href=https://www.mindomo.com>כלי למידה</a>"
             ],
             text: [
@@ -263,7 +263,7 @@ const social = [
             time: "משתנה",
             links: [
                 "<a href=https://www.edunow.org.il/edunow-media-story-255880>קריאת המשך</a>",
-                "<a href=http://digitalpedagogy.info/simulator.php?url=http://dgitalpedagogy.info>כלי למידה</a>"
+                "<a href=http://digitalpedagogy.info/simulator.php?url=http://digitalpedagogy.info>כלי למידה</a>"
             ],
             text: [
                 "<ul><p class='sideways-text'>עקרונות ליישום</p><li>הגדרת מטרת המשחק ויעדיו</li><li>אפשרויות משחק שונות</li><li>שימוש במשחק קיים או חדש</li><li>שימוש באלמנטים של משחוק</li><li>משחק קבוצתי או יחידני</li></ul>",
@@ -291,7 +291,7 @@ const social = [
             members: "עד 8",
             time: "כ60 דקות",
             links: [
-                "<p>קריאת המשך - dkjihourdhgioetaha</p>",
+                "<a href=https://yhanan.wordpress.com/2011/08/18/%D7%9C%D7%91%D7%94-%D7%9C%D7%9E%D7%99%D7%93%D7%94-%D7%91%D7%A1%D7%91%D7%99%D7%91%D7%94-%D7%94%D7%A8%D7%A4%D7%AA%D7%A7%D7%A0%D7%99%D7%AA>קריאת המשך</a>",
                 "<a href=https://www.shirideitch.com/escape-rooms>כלי למידה</a>"
             ],
             text: [
@@ -440,7 +440,7 @@ const frontal = [
             time: "40-90 דקות",
             links: [
                 "<a href=https://www.edunow.org.il/edunow-media-story-151529>קריאת המשך</a>",
-                "<a href=https://m.fackebook.com/MooshCreative360>כלי למידה</a>"
+                "<a href=https://m.facebook.com/MooshCreative360>כלי למידה</a>"
             ],
             text: [
                 "<ul><p class='sideways-text'>עקרונות ליישום</p><li>הקפדה על סדר לוגי</li><li>קצב למידה מותאם ללומד</li><li>פרזנטציה ברורה</li><li> תרגול והערכת ביצועים</li></ul>",
@@ -585,7 +585,7 @@ function showCard(event) {
      $(".filler").css({backgroundColor: "rgb" + eval(strPickedCard)[0].color1, color: "rgb" + eval(strPickedCard)[0].color1});
      $("li").css({"--li-color":"rgb" + eval(strPickedCard)[0].color1});
      nCardCounter = eval(strPickedCard)[0].counter;
-     $(".prev-btn").on("click", lastPage);
+     $("#back").on("click", lastPage);
      $(".next-btn").on("click", next);
      $(".up").on("click", scrollUp);
 }
@@ -611,23 +611,14 @@ function lastPage(event) {
         for (let i = 0; i < learningMethod.length; i++) {
             $("#" + learningMethod[i].idValue).on("click", (event) => nextPage(i));
         }
-    } else {
+    } else if(this.id === "back") {
+        $(".opening").show();
+        $(".cards").css({display: "none"}); 
+        $(".principles").html("");
+    $(".content-left").html('<div class="abilities"><div class="abilities-text"><h2 class="abilities-h2">מיומנויות?</h2></div><img class="pencil" src="assets/images/pencil.png" /></div><div class="filler">g</div> <div class="up"><img class="up-btn" src="assets/images/next.png"/></div>');
+        $("#options-prev").on("click", lastPage);
         $(".prev-btn").off("click", lastPage);
         $(".next-btn").off("click", next);
-        $(".principles").html("");
-        $(".content-left").html('<div class="abilities"><div class="abilities-text"><h2 class="abilities-h2">מיומנויות?</h2></div><img class="pencil" src="assets/images/pencil.png" /></div><div class="filler">g</div>');
-        if(nCardCounter <= eval(strCurrArray).length-1) {
-            $(".next-btn").show();
-            if(nCardCounter === 0) {
-                $(".opening").show();
-                $(".cards").css({display: "none"}); 
-                $("#options-prev").on("click", lastPage);
-            } else {
-                nCardCounter--;
-                strPickedCard = eval(strCurrArray)[nCardCounter];
-                showCard();
-            }
-        }
     }
 }
 
@@ -635,7 +626,7 @@ function next(event) {
     $(".next-btn").off("click", next);
     $(".prev-btn").off("click", lastPage);
     $(".principles").html("");
-    $(".content-left").html('<div class="abilities"><div class="abilities-text"><h2 class="abilities-h2">מיומנויות?</h2></div><img class="pencil" src="assets/images/pencil.png" /></div><div class="filler">g</div>');
+    $(".content-left").html('<div class="abilities"><div class="abilities-text"><h2 class="abilities-h2">מיומנויות?</h2></div><img class="pencil" src="assets/images/pencil.png" /></div><div class="filler">g</div> <div class="up"><img class="up-btn" src="assets/images/next.png"/></div>');
     nCardCounter++;
     if(nCardCounter === eval(strCurrArray).length) {
         $(".opening").show();
