@@ -615,7 +615,7 @@ function lastPage(event) {
         $(".prev-btn").off("click", lastPage);
         $(".next-btn").off("click", next);
         $(".principles").html("");
-        $(".content-left").html('<div class="abilities"><div class="abilities-text"><h2 class="abilities-h2">מיומנויות?</h2></div><img class="pencil" src="assets/images/pencil.png" /></div><div class="filler">g</div>');
+        $(".content-left").html('<div class="abilities"><div class="abilities-text"><h2 class="abilities-h2">מיומנויות?</h2></div><img class="pencil" src="assets/images/pencil.png" /></div><div class="filler">g</div> <div class="up"><img class="up-btn" src="assets/images/next.png"/></div>');
         if(nCardCounter <= eval(strCurrArray).length-1) {
             $(".next-btn").show();
             if(nCardCounter === 0) {
@@ -635,7 +635,7 @@ function next(event) {
     $(".next-btn").off("click", next);
     $(".prev-btn").off("click", lastPage);
     $(".principles").html("");
-    $(".content-left").html('<div class="abilities"><div class="abilities-text"><h2 class="abilities-h2">מיומנויות?</h2></div><img class="pencil" src="assets/images/pencil.png" /></div><div class="filler">g</div>');
+    $(".content-left").html('<div class="abilities"><div class="abilities-text"><h2 class="abilities-h2">מיומנויות?</h2></div><img class="pencil" src="assets/images/pencil.png" /></div><div class="filler">g</div> <div class="up"><img class="up-btn" src="assets/images/next.png"/></div>');
     nCardCounter++;
     if(nCardCounter === eval(strCurrArray).length) {
         $(".opening").show();
