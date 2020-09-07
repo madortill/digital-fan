@@ -585,7 +585,7 @@ function showCard(event) {
      $(".filler").css({backgroundColor: "rgb" + eval(strPickedCard)[0].color1, color: "rgb" + eval(strPickedCard)[0].color1});
      $("li").css({"--li-color":"rgb" + eval(strPickedCard)[0].color1});
      nCardCounter = eval(strPickedCard)[0].counter;
-     $(".prev-btn").on("click", lastPage);
+     $("#back").on("click", lastPage);
      $(".next-btn").on("click", next);
      $(".up").on("click", scrollUp);
 }
@@ -611,23 +611,12 @@ function lastPage(event) {
         for (let i = 0; i < learningMethod.length; i++) {
             $("#" + learningMethod[i].idValue).on("click", (event) => nextPage(i));
         }
-    } else {
+    } else if(this.id === "back") {
+        $(".opening").show();
+        $(".cards").css({display: "none"}); 
+        $("#options-prev").on("click", lastPage);
         $(".prev-btn").off("click", lastPage);
         $(".next-btn").off("click", next);
-        $(".principles").html("");
-        $(".content-left").html('<div class="abilities"><div class="abilities-text"><h2 class="abilities-h2">מיומנויות?</h2></div><img class="pencil" src="assets/images/pencil.png" /></div><div class="filler">g</div> <div class="up"><img class="up-btn" src="assets/images/next.png"/></div>');
-        if(nCardCounter <= eval(strCurrArray).length-1) {
-            $(".next-btn").show();
-            if(nCardCounter === 0) {
-                $(".opening").show();
-                $(".cards").css({display: "none"}); 
-                $("#options-prev").on("click", lastPage);
-            } else {
-                nCardCounter--;
-                strPickedCard = eval(strCurrArray)[nCardCounter];
-                showCard();
-            }
-        }
     }
 }
 
