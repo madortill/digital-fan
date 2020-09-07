@@ -607,7 +607,7 @@ td {
 
 .up-btn {
     transform: rotate(90deg);
-    width: 1%;
+    width: 2%;
 }
 
 @media (max-width: 1100px) {
