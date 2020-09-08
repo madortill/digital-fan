@@ -185,7 +185,6 @@ body {
     transform: translateX(-50%);
     z-index: 3;
     height: 70%;
-    overflow-y: auto;
     border-radius: 5%;
     margin-top: 5%;
     width: 25%;
