@@ -5,8 +5,8 @@ const learningMethod = [
         idValue: "frontal-learning",
         color: "purple",
         buttons: [
-            "frontalLessonBtn.png",
-            "shortTimesBtn.png"
+            "frontalLessonBtn.svg",
+            "shortTimesBtn.svg"
         ]
     },
     {
@@ -14,9 +14,9 @@ const learningMethod = [
         idValue: "self-learning",
         color: "orenge",
         buttons: [
-            "upsideDownClassBtn.png",
-            "selfLearningBtn.png",
-            "microLearningBtn.png"
+            "upsideDownClassBtn.svg",
+            "selfLearningBtn.svg",
+            "microLearningBtn.svg"
         ]
     },
     {
@@ -24,12 +24,12 @@ const learningMethod = [
         idValue: "social-learning",
         color: "green",
         buttons: [
-            "basedOnProjectsBtn.png",
-            "basedOnProblemBtn.png",
-            "expertsBtn.png",
-            "gameBtn.png",
-            "adventurousBtn.png",
-            "colleaguesBtn.png"
+            "basedOnProjectsBtn.svg",
+            "basedOnProblemBtn.svg",
+            "expertsBtn.svg",
+            "gameBtn.svg",
+            "adventurousBtn.svg",
+            "colleaguesBtn.svg"
         ]
     },
     {
@@ -37,7 +37,7 @@ const learningMethod = [
         idValue: "E-Learnng",
         color: "blue",
         buttons: [
-            "mobileLearningBtn.png"
+            "mobileLearningBtn.svg"
         ]
     },
     {
@@ -45,9 +45,9 @@ const learningMethod = [
         idValue: "tools-for-group-meetings",
         color: "red",
         buttons: [
-            "brainstormingBtn.png",
-            "discussionGroupsBtn.png",
-            "debateBtn.png"            
+            "brainstormingBtn.svg",
+            "discussionGroupsBtn.svg",
+            "debateBtn.svg"            
         ]
     }
 ];
@@ -606,7 +606,7 @@ function lastPage(event) {
         $(".options-nav").hide();
         $("#options-prev").off("click", lastPage);
         $(".title").text("שיטות למידה");
-        $(".options").html('<img id="tools-for-group-meetings" src="assets/images/toolsForGroupMeetings.png" alt="tools for group meetings" /><img id="E-Learnng" src="assets/images/ELearnng.png" alt="E-Learnng" /><img id="social-learning" src="assets/images/socialLearning.png" alt="social learning" /><img id="self-learning" src="assets/images/selfLearning.png" alt="self learning" /><img id="frontal-learning" src="assets/images/frontalLearning.png" alt="frontal learning" />')
+        $(".options").html('<img id="tools-for-group-meetings" src="assets/images/toolsForGroupMeetings.svg" alt="tools for group meetings" /><img id="E-Learnng" src="assets/images/ELearnng.svg" alt="E-Learnng" /><img id="social-learning" src="assets/images/socialLearning.svg" alt="social learning" /><img id="self-learning" src="assets/images/selfLearning.svg" alt="self learning" /><img id="frontal-learning" src="assets/images/frontalLearning.svg" alt="frontal learning" />')
         $(".options").css("flex-wrap","wrap-reverse");
         for (let i = 0; i < learningMethod.length; i++) {
             $("#" + learningMethod[i].idValue).on("click", (event) => nextPage(i));
@@ -615,7 +615,7 @@ function lastPage(event) {
         $(".opening").show();
         $(".cards").css({display: "none"}); 
         $(".principles").html("");
-    $(".content-left").html('<div class="abilities"><div class="abilities-text"><h2 class="abilities-h2">מיומנויות?</h2></div><img class="pencil" src="assets/images/pencil.png" /></div><div class="filler">g</div> <div class="up"><img class="up-btn" src="assets/images/next.png"/></div>');
+    $(".content-left").html('<div class="abilities"><div class="abilities-text"><h2 class="abilities-h2">מיומנויות?</h2></div><img class="pencil" src="assets/images/pencil.png" /></div><div class="filler">g</div> <div class="up"><img class="up-btn" src="assets/images/next.png"/></div>')
         $("#options-prev").on("click", lastPage);
         $(".prev-btn").off("click", lastPage);
         $(".next-btn").off("click", next);
